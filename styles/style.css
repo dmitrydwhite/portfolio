@@ -97,12 +97,19 @@ nav {
 }
 
 .nav_button {
-  width: 25%;
+  width: 24%;
   float: left;
-  line-height: 62px;
+  line-height: 60px;
   text-align: center;
   color: black;
   font-family: 'Ubuntu Mono';
+  border: 1px solid #414fbc;
+}
+
+.nav_button:hover {
+  color: white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 .main_content {
@@ -110,6 +117,7 @@ nav {
   width: 58%;
   margin-left: 18%;
   margin-top: 25px;
+  border-radius: 7px;
   background-color: #AAB2FF;
   padding: 7px;
   text-align: justify;
@@ -120,6 +128,7 @@ nav {
   width: 18%;
   margin-top: 25px;
   margin-left: 2%;
+  border-radius: 17px;
   padding: 7px;
   background-color: blue;
   min-height: 400px;
