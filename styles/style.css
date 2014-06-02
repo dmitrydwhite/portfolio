@@ -15,8 +15,8 @@ body {
 }
 
 h1 {
-  font-family: 'Ubuntu Mono';
-  /*font-family: Courier;*/
+  /*font-family: 'Ubuntu Mono';*/
+  font-family: Courier;
 }
 
 a {
@@ -58,6 +58,7 @@ a {
   float: left;
   background-color: white;
   min-height: 217px;
+  box-shadow: inset 0 0 10px black;
 }
 
 .self_image {
