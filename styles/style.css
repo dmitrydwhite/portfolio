@@ -1,0 +1,16 @@
+h1 {
+  font-family: 'Ubuntu Mono';
+}
+
+.left_spacer, .under_nav, .social {
+  background-color: orange;
+}
+
+.headshot {
+  width: 20%;
+}
+
+.name_title {
+  background-color: orange;
+}
+
