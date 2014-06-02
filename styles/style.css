@@ -1,5 +1,5 @@
 body {
-  background-color: green;
+  background-color: #0D101C;
 }
 
 .container {
@@ -33,7 +33,7 @@ a {
 }
 
 .left_spacer {
-  background-color: orange;
+  background-color: #8FAFE8;
   min-height: 124px;
   width: 100%;
   float: left;
@@ -42,14 +42,14 @@ a {
 .nav_spacer {
   min-height: 62px;
   width: 100%;
-  background-color: green;
+  background-color: #414fbc;
   float: left;
 }
 
 .under_nav {
   min-height: 31px;
   width: 100%;
-  background-color: orange;
+  background-color: #8FAFE8;
   float: left;
 }
 
@@ -72,7 +72,7 @@ a {
 .name_title {
   float: left;
   width: 70%;
-  background-color: orange;
+  background-color: #8FAFE8;
   min-height: 124px;
   text-align: center;
 }
@@ -80,12 +80,12 @@ a {
 .social {
   width: 30%;
   float: left;
-  background-color: orange;
+  background-color: #8FAFE8;
 }
 
 nav {
   min-height: 62px;
-  background-color: green;
+  background-color: #414fbc;
   width: 100%;
 }
 
@@ -100,6 +100,8 @@ nav {
   float: left;
   line-height: 62px;
   text-align: center;
+  color: black;
+  font-family: 'Ubuntu Mono';
 }
 
 .main_content {
