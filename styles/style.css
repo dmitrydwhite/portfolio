@@ -1,10 +1,10 @@
 body {
-  background-color: #0D101C;
+  background-color: white;
 }
 
 .container {
   width: 95%;
-  background-color: #8FAFE8;
+  background-color: white;
   margin-left: auto;
   margin-right: auto;
   border-radius: 3px;
@@ -24,33 +24,39 @@ a {
 }
 
 .small_head_space {
-  min-height: 50px;
+  min-height: 10px;
 }
 
-.far_left {
+.namespace, .lastname {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 120px;
+}
+
+/*.far_left {
   width: 5%;
   float: left;
-}
+}*/
 
-.left_spacer {
+/*.left_spacer {
   background-color: #8FAFE8;
   min-height: 124px;
   width: 100%;
   float: left;
-}
+}*/
 
-.nav_spacer {
+/*.nav_spacer {
   min-height: 62px;
   width: 100%;
   background-color: #414fbc;
   float: left;
-}
+}*/
 
 .under_nav {
   min-height: 31px;
   width: 100%;
-  background-color: #8FAFE8;
-  float: left;
+/*  background-color: #8FAFE8;
+*/  float: left;
 }
 
 .headshot {
@@ -85,8 +91,8 @@ a {
 }
 
 nav {
-  min-height: 62px;
-  background-color: #414fbc;
+  min-height: 31px;
+  background-color: black;
   width: 100%;
 }
 
@@ -99,11 +105,11 @@ nav {
 .nav_button {
   width: 24%;
   float: left;
-  line-height: 60px;
+  line-height: 28px;
   text-align: center;
-  color: black;
-  font-family: 'Ubuntu Mono';
-  border: 1px solid #414fbc;
+  color: white;
+  font-family: Arial;
+  border: 1px solid black;
 }
 
 .nav_button:hover {
@@ -113,13 +119,9 @@ nav {
 }
 
 .main_content {
-  float: left;
   width: 58%;
-  margin-left: 18%;
-  margin-top: 25px;
-  border-radius: 7px;
-  background-color: #AAB2FF;
-  padding: 7px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: justify;
 }
 
@@ -131,15 +133,18 @@ nav {
   border-radius: 17px;
   padding: 7px;
   background-color: #0b7bc9;
-  min-height: 400px;
+  /*min-height: 400px;*/
   text-align: center;
   color: white;
   font-family: Courier;
 }
 
+.copyright {
+  float: left;
+}
+
 footer {
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   padding-bottom: 10px;
-  text-align: center;
-  color: white;
+  text-align: right;
 }
