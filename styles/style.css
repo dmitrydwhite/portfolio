@@ -27,11 +27,14 @@ a {
   min-height: 10px;
 }
 
-.namespace, .lastname {
+.namespace > a {
+  font-style: none;
+  text-decoration: none;
   font-family: Arial;
   font-weight: bold;
   font-size: 120px;
 }
+
 
 /*.far_left {
   width: 5%;
