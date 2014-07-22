@@ -28,6 +28,7 @@ a {
 }
 
 .namespace > a {
+  color: black;
   font-style: none;
   text-decoration: none;
   font-family: Arial;
